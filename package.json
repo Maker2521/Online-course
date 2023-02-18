@@ -1,0 +1,30 @@
+{
+    "name": "AutoStudy",
+    "version": "1.2.2",
+    "description": "这是一个能够快速完成你的大专课程的项目，目前实现了两个课程平台（超星学习通和柠檬学堂）",
+    "main": "index.js",
+    "scripts": {
+        "serve": "node ./server.js"
+    },
+    "keywords": [
+        "柠檬学堂",
+        "柠檬文才",
+        "超星学习通",
+        "学习通",
+        "大专刷课程",
+        "刷课程",
+        "刷网课脚本"
+    ],
+    "author": "孤独的小丑",
+    "license": "ISC",
+    "dependencies": {
+        "cheerio": "^1.0.0-rc.9",
+        "cookie": "^0.5.0",
+        "cookie-parser": "^1.4.5",
+        "crypto-js": "^4.0.0",
+        "express": "^4.17.1",
+        "md5-node": "^1.0.1",
+        "mongoose": "^5.12.3",
+        "set-cookie-parser": "^2.4.8"
+    }
+}
